@@ -34,7 +34,7 @@ ul {
 }
 .left p {
     margin: 10px;
-    text-align: center;
+    text-align: center ;
 }
 .logo {
     border: 2px solid black;
@@ -77,7 +77,7 @@ input {
 }
 
 #flat {
-    background: url("background-co-do-sao-vang-3.jpg");
+    background: url("background-co-do-sao-vang-3.jpg") center center;
     background-size: cover;
 }
 
