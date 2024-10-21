@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.icon-f{
+    font-size: 40px;
+    color: blue;
+}
+
+.left {
+    display: flex;
+    padding: 0 0 0 10px;
+}
+
+.left > h1 {
+    margin: 5px;
+}
+
+.left > input {
+    background-color: rgba(128, 128, 128, 0.075);
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 7px;
+    width: 250px;
+    height: 40px;
+}
+
+.center > ul > li > a > i {
+    font-size: 25px;
+    width: 150px;
+    padding-left: 100px; 
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    padding-right: 10px ;
+}
+
+.right > ul > li > a > i {
+    background-color: rgba(128, 128, 128, 0.075);
+    border: 1px solid rgba(128, 128, 128, 0.075);
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 5px;
+    padding: 8px;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    background-color:aqua;
+}
+
+.image {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 300px;
+    height: 450px;
+    width: 68%;
+}
+
+.image > button {
+   position: relative;
+   background-color: white;
+   left: 86%;
+   top: 88%;
+   width: 150px;
+   height: 40px;
+   border-radius: 10px;
+   font-weight: bold;
+}
+
+.avatar {
+    margin-bottom: 0px;
+}
+ .avatar > img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    left: 330px;
+    bottom: 45px;
+ }
+ .icon-camera {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: grey;
+    padding: 10px;
+    position: relative;
+    left: 275px;
+    top: -70px;
+
+ }
+ 
+ .avatar > h1{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    top: -140px;
+ }
+
+ .avatar > p {
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    top: -110px;
+ }
+
+.menu {
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    top: -120px;
+}
+
+ .menu > button:nth-child(1) {
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgba(15, 15, 236, 0.767);
+ }
+
+ .menu >button:nth-child(2) {
+    height: 40px;
+    width: 250px;
+    font-weight: bold;
+    border-radius: 10px;
+ }
+
+.menu > button:nth-child(3) {
+    position: relative;
+    top: 40px;
+    left: -45px;
+    width: 40px;
+    height: 30px;
+}
+
+.line {
+    margin-left: 320px;
+    width: 67%;
+}
+
+.footer {
+    align-items: center;
+    padding: 15px;
+    margin: 0px 300px;
+}
+span {
+    padding: 15px;
+    height: 30px;
+}
+
+span:hover{
+    background-color: aqua;
+}
+
+.footer :nth-of-type(1) {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer > button {
+    display: inline-block;
+    margin-left: 625px;
+    border-radius: 5px;
+    width: 45px;
+    height: 30px;
+}
+
+
+
